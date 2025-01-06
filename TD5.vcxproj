@@ -127,15 +127,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ANNEE.cpp" />
     <ClCompile Include="CATEGORIE.cpp" />
+    <ClCompile Include="COURSES.cpp" />
+    <ClCompile Include="CYCLISME.cpp" />
+    <ClCompile Include="EPREUVE.cpp" />
     <ClCompile Include="INSCRIPTION.cpp" />
+    <ClCompile Include="LABORATOIRE.cpp" />
+    <ClCompile Include="NATATION.cpp" />
+    <ClCompile Include="PIED.cpp" />
+    <ClCompile Include="PRELEVEMENT.cpp" />
+    <ClCompile Include="PRODUITDOPANTS.cpp" />
+    <ClCompile Include="TAUX.cpp" />
     <ClCompile Include="TD5.cpp" />
+    <ClCompile Include="TEMPS.cpp" />
     <ClCompile Include="TRIATHLETE.cpp" />
+    <ClCompile Include="TRIATHLON.cpp" />
+    <ClCompile Include="TYPE.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ANNEE.h" />
     <ClInclude Include="CATEGORIE.h" />
+    <ClInclude Include="COURSES.h" />
+    <ClInclude Include="CYCLISME.h" />
+    <ClInclude Include="EPREUVE.h" />
     <ClInclude Include="INSCRIPTION.h" />
+    <ClInclude Include="LABORATOIRE.h" />
+    <ClInclude Include="NATATION.h" />
+    <ClInclude Include="PIED.h" />
+    <ClInclude Include="PRELEVEMENT.h" />
+    <ClInclude Include="PRODUITDOPANTS.h" />
+    <ClInclude Include="TAUX.h" />
+    <ClInclude Include="TEMPS.h" />
     <ClInclude Include="TRIATHLETE.h" />
+    <ClInclude Include="TRIATHLON.h" />
+    <ClInclude Include="TYPE.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
