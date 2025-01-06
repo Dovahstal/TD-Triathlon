@@ -17,5 +17,12 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	//création des données
+
+	//création 2 catégories
+	CATEGORIE* J1 = new CATEGORIE(1, "Junior", 15, 17, NULL);
+	CATEGORIE* S1 = new CATEGORIE(2, "Senior", 19, 30, NULL);
+
+	//création 4 triathlètes
+	TRIATHLETE A(1, "TOTO", "TOTO", "M", "Annecy", "23/02/2009", J1, NULL);
 }

@@ -27,5 +27,4 @@ class INSCRIPTION
 		std::string affiche(); //renvoie le numéro de dossard et la date
 
 };
-
 #endif // !INSCRIPTION_H
