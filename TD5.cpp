@@ -25,4 +25,12 @@ int main()
 
 	//création 4 triathlètes
 	TRIATHLETE A(1, "TOTO", "TOTO", "M", "Annecy", "23/02/2009", J1, NULL);
+	TRIATHLETE B(2, "TITI", "TITI", "F", "Rumilly", "12/02/2008", J1, NULL);
+	TRIATHLETE C(3, "TATA", "TATA", "M", "Chambery", "22/03/2000", S1, NULL);
+	TRIATHLETE D(4, "TUTU", "TATA", "F", "Epagny", "30/06/2009", S1, NULL);
+
+	//création d'un type
+	TYPE M(0, "M", 1.5, 50.0, 10.0);
+
+	//création d'un triathlon
 }

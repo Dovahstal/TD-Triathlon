@@ -8,8 +8,8 @@ TRIATHLETE::TRIATHLETE()
 	this->sexe = "";
 	this->adresse = "";
 	this->dateNaissance = "";
-	this->laCategorie = CATEGORIE();
-	this->laInscription = INSCRIPTION();
+	this->laCategorie = NULL;
+	this->laInscription = NULL;
 }
 
 TRIATHLETE::TRIATHLETE(int numLicense, std::string nomTriathlete, std::string prenom, std::string sexe, std::string adresse, std::string dateNaissance, CATEGORIE* laCategorie, INSCRIPTION* laInscription)

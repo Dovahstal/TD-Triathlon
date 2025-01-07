@@ -25,7 +25,6 @@ class TRIATHLETE
 		int getNumLicense(); //retourne le numéro de licence
 		CATEGORIE* laCategorie;
 		INSCRIPTION* laInscription;
-
 };
 #endif // !TRIATHLETE_H
 
