@@ -8,6 +8,8 @@ class TEMPS
 		float temps;
 
 	public:
+		TEMPS();
+		TEMPS(float temps);
 };
 
 #endif // !TEMPS_HPP

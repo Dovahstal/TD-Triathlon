@@ -1,7 +1,6 @@
 #ifndef NATATION_H
 #define NATATION_H
 #include "EPREUVE.h"
-#include "TRIATHLON.h"
 #include <iostream>
 
 class NATATION : EPREUVE
@@ -11,7 +10,7 @@ class NATATION : EPREUVE
 
 	public:
 		NATATION();
-		NATATION(int temperature);
+		NATATION(int temperature, std::string gpsDepart, std::string gpsArrive, TRIATHLON* leTriathlon, INSCRIPTION* lesInscriptions);
 		int getTemperature(); //retourne la température de l’eau
 		TRIATHLON* getLeTriathlon();
 
